@@ -1,5 +1,14 @@
 .profile {
+  overflow-y: auto;
   padding: 30px 40px;
   border-radius: 8px;
   background-color: #101010;
+}
+
+.recommendation-wrapper {
+  margin-top: 20px;
+}
+
+.recommendation-wrapper > .heading {
+  margin-bottom: 5px;
 }

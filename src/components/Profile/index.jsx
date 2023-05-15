@@ -1,4 +1,5 @@
 import { Banner } from '../Banner';
+import { Heading } from '../Heading';
 
 import './styles.css';
 
@@ -10,6 +11,10 @@ const Profile = () => (
       artist="Kendrick Lamar"
       title="Mr. Morale And The Big Steppers"
     />
+    <section className="recommendation-wrapper">
+      <Heading>Good Evening</Heading>
+      hello
+    </section>
   </section>
 );
 
