@@ -1,0 +1,10 @@
+.volume-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.volume-wrapper .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 15px;
+}

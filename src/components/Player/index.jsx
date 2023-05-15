@@ -1,4 +1,5 @@
 import { Song } from '../Song';
+import { Volume } from '../Volume';
 import { Controls } from '../Controls';
 
 import './styles.css';
@@ -15,7 +16,9 @@ const Player = () => (
     <div className="controls-player">
       <Controls />
     </div>
-    <div className="volume-player"></div>
+    <div className="volume-player">
+      <Volume />
+    </div>
   </section>
 );
 
