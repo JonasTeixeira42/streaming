@@ -4,7 +4,7 @@
   background-color: #101010;
 }
 
-.top-songs .title {
-  font-size: 20px;
+.top-songs > .title {
+  font-size: 16px;
   margin-bottom: 30px;
 }

@@ -14,8 +14,8 @@
 .song-picture {
   display: flex;
   margin-right: 10px;
-  width: 55px;
-  height: 55px;
+  width: 40px;
+  height: 40px;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -25,11 +25,11 @@
 }
 
 .song-information > .title {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 600;
 }
 
 .song-information > .artist {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
 }
