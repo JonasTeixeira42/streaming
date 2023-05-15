@@ -1,7 +1,7 @@
 import { Footer } from '../../components/Footer';
 import { Sidebar } from '../../components/Sidebar';
 import { Profile } from '../../components/Profile';
-import { FriendsActivity } from '../../components/FriendsActivity';
+import { TopSongs } from '../../components/TopSongs';
 
 import './styles.css';
 
@@ -10,7 +10,7 @@ const Home = () => (
     <section class="home__content">
       <Sidebar />
       <Profile />
-      <FriendsActivity />
+      <TopSongs />
     </section>
     <section>
       <Footer />

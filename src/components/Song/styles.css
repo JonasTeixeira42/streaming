@@ -1,0 +1,35 @@
+.song {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #171717;
+}
+
+.song:last-child {
+  border: 0;
+  padding-bottom: 0;
+}
+
+.song-picture {
+  display: flex;
+  margin-right: 10px;
+  width: 55px;
+  height: 55px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.song-picture > .picture {
+  object-fit: cover;
+}
+
+.song-information > .title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.song-information > .artist {
+  font-size: 14px;
+  font-weight: 400;
+}

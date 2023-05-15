@@ -1,0 +1,10 @@
+.top-songs {
+  padding: 8px 15px;
+  border-radius: 8px;
+  background-color: #101010;
+}
+
+.top-songs .title {
+  font-size: 20px;
+  margin-bottom: 30px;
+}

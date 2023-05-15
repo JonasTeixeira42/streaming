@@ -9,4 +9,9 @@
   flex: 1;
   display: grid;
   grid-template-columns: 0.3fr 1fr 0.3fr;
+  overflow: hidden;
+}
+
+.home__content > .top-songs {
+  overflow-y: auto;
 }
