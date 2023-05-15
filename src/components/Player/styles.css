@@ -1,3 +1,10 @@
 .player {
-  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0px 12px;
+}
+
+.controls-player {
+  flex: 1;
 }

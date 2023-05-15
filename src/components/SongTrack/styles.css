@@ -1,0 +1,13 @@
+.song-track {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 0 10px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.song-track .time {
+  font-size: 12px;
+}
