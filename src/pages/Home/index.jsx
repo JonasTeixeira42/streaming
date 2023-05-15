@@ -1,4 +1,4 @@
-import { Footer } from '../../components/Footer';
+import { Player } from '../../components/Player';
 import { Sidebar } from '../../components/Sidebar';
 import { Profile } from '../../components/Profile';
 import { TopSongs } from '../../components/TopSongs';
@@ -12,8 +12,8 @@ const Home = () => (
       <Profile />
       <TopSongs />
     </section>
-    <section>
-      <Footer />
+    <section className="home__player">
+      <Player />
     </section>
   </main>
 );
