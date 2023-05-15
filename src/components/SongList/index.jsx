@@ -4,8 +4,8 @@ import './styles.css';
 
 const SongList = ({ songs }) => (
   <section className="song-list">
-    {songs.map(({ url, title, artist }) => (
-      <Song url={url} title={title} artist={artist} />
+    {songs.map(({ url, title, artist }, index) => (
+      <Song key={index} url={url} title={title} artist={artist} />
     ))}
   </section>
 );

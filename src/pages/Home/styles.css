@@ -9,7 +9,7 @@
   flex: 1;
   gap: 15px;
   display: grid;
-  grid-template-columns: 0.3fr 1fr 0.3fr;
+  grid-template-columns: 0.2fr 1fr 0.2fr;
   overflow: hidden;
 }
 

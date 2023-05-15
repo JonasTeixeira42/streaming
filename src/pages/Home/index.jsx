@@ -6,8 +6,8 @@ import { TopSongs } from '../../components/TopSongs';
 import './styles.css';
 
 const Home = () => (
-  <main class="home">
-    <section class="home__content">
+  <main className="home">
+    <section className="home__content">
       <Sidebar />
       <Profile />
       <TopSongs />

@@ -1,19 +1,41 @@
 .highlight {
-  width: 300px;
   height: 300px;
-  padding: 10px 15px;
+  cursor: pointer;
   overflow: hidden;
-  border-radius: 8px;
+  padding: 10px 15px;
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.highlight > .image {
-  inset: 0;
-  object-fit: cover;
+.highlight::after {
+  content: '';
   position: absolute;
+  height: 40%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to bottom, transparent 0%, black 100%);
+}
+
+.highlight-image {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.highlight-image:hover > .image {
+  transform: scale(1.2);
+}
+
+.highlight-image > .image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.2s transform;
 }
 
 .highlight > .quantity {
@@ -24,7 +46,7 @@
 }
 
 .highlight-info {
-  z-index: 1;
+  z-index: 2;
   color: #fafafa;
   display: flex;
   flex-direction: column;

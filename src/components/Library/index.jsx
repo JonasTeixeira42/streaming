@@ -7,13 +7,13 @@ import { playlists } from './playlists';
 import './styles.css';
 
 const Library = () => (
-  <section class="library">
-    <div class="header">
-      <div class="header__icon">
+  <section className="library">
+    <div className="header">
+      <div className="header__icon">
         <LibraryIcon />
       </div>
-      <span class="header__title">Your Library</span>
-      <div class="header__add">
+      <span className="header__title">Your Library</span>
+      <div className="header__add">
         <AddIcon />
       </div>
     </div>

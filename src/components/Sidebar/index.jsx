@@ -4,7 +4,7 @@ import { Navigation } from '../Navigation';
 import './styles.css';
 
 const Sidebar = () => (
-  <aside class="sidebar">
+  <aside className="sidebar">
     <Navigation />
     <Library />
   </aside>

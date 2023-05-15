@@ -1,5 +1,9 @@
 import './styles.css';
 
-const Heading = ({ children }) => <h1 className="heading">{children}</h1>;
+const Heading = ({ children, weight = 'heavy' }) => (
+  <h1 className={`heading ${weight === 'heavy' ? 'heavy' : 'medium'}`}>
+    {children}
+  </h1>
+);
 
 export { Heading };

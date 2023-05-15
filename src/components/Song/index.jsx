@@ -1,7 +1,7 @@
 import './styles.css';
 
 const Song = ({ url, title, artist }) => (
-  <article class="song">
+  <article className="song">
     <div className="song-picture">
       <img className="picture" src={url} alt="friend avatar" />
     </div>

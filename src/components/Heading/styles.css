@@ -1,4 +1,11 @@
 .heading {
-  font-size: 28px;
+  font-size: 24px;
+}
+
+.heavy {
   font-weight: 700;
+}
+
+.medium {
+  font-weight: 600;
 }

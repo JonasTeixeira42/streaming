@@ -5,7 +5,7 @@ import { FavoriteIcon } from '../icons/FavoriteIcon';
 import './styles.css';
 
 const Banner = ({ url, title, artist, description }) => (
-  <div class="banner">
+  <div className="banner">
     <div className="banner-image">
       <img className="image" src={url} alt="featured song" />
     </div>

@@ -1,5 +1,5 @@
 import './styles.css';
 
-const Footer = () => <footer class="player">Footer</footer>;
+const Footer = () => <footer className="player">Footer</footer>;
 
 export { Footer };
