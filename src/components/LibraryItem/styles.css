@@ -1,0 +1,29 @@
+.library-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.library-item > .title {
+  font-size: 16px;
+  color: #fff;
+}
+
+.library-item > .title-red {
+  color: #ee4950;
+}
+
+.library-item > .disc {
+  width: 22px;
+  height: 22px;
+  animation: rotation 3s linear infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

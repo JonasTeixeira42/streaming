@@ -1,3 +1,4 @@
+import { Library } from '../Library';
 import { Navigation } from '../Navigation';
 
 import './styles.css';
@@ -5,6 +6,7 @@ import './styles.css';
 const Sidebar = () => (
   <aside class="sidebar">
     <Navigation />
+    <Library />
   </aside>
 );
 
