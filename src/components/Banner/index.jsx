@@ -6,7 +6,9 @@ import './styles.css';
 
 const Banner = ({ url, title, artist, description }) => (
   <div class="banner">
-    <img className="image" src={url} alt="featured song" />
+    <div className="banner-image">
+      <img className="image" src={url} alt="featured song" />
+    </div>
 
     <div className="featured-info">
       <p className="description">{description}</p>
