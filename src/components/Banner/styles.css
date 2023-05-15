@@ -1,0 +1,65 @@
+.banner {
+  height: 300px;
+  padding: 28px;
+  overflow: hidden;
+  border-radius: 4px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.banner > .image {
+  inset: 0;
+  object-fit: cover;
+  position: absolute;
+}
+
+.featured-info {
+  z-index: 1;
+  height: 100%;
+  color: #fafafa;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.featured-info > .description {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.featured-info > .artist {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.featured-info > .title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.banner-action {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.banner-action > .icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 25px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.2s color;
+}
+
+.banner-action > .icon:hover {
+  color: #d9d9d9;
+}
