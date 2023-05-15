@@ -1,9 +1,9 @@
 const playlists = [
-  { title: 'playlist 1', isPlaying: true },
-  { title: 'playlist 2', isPlaying: false },
-  { title: 'playlist 3', isPlaying: false },
-  { title: 'playlist 4', isPlaying: false },
-  { title: 'playlist 5', isPlaying: false },
+  { title: 'For workplace', isPlaying: true },
+  { title: 'deep focus', isPlaying: false },
+  { title: 'Lo-Fi Jazz upbeat', isPlaying: false },
+  { title: 'Future Funk', isPlaying: false },
+  { title: 'On Repeat', isPlaying: false },
 ];
 
 export { playlists };
