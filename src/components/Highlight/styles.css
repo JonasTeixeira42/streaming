@@ -9,16 +9,6 @@
   justify-content: space-between;
 }
 
-.highlight::after {
-  content: '';
-  position: absolute;
-  height: 40%;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background: linear-gradient(to bottom, transparent 0%, black 100%);
-}
-
 .highlight-image {
   position: absolute;
   left: 0;

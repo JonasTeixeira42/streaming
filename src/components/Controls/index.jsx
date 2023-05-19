@@ -16,7 +16,7 @@ const Controls = () => (
       <div className="icon">
         <BackArrowIcon />
       </div>
-      <div className="play">
+      <div className="icon play">
         <PlayIcon />
       </div>
       <div className="icon">

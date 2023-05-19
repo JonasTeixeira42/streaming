@@ -9,11 +9,11 @@ import './styles.css';
 const Library = () => (
   <section className="library">
     <div className="header">
-      <div className="header__icon">
+      <div className="icon">
         <LibraryIcon />
       </div>
-      <span className="header__title">Your Library</span>
-      <div className="header__add">
+      <span className="title">Your Library</span>
+      <div className="add">
         <AddIcon />
       </div>
     </div>

@@ -5,11 +5,11 @@ import './styles.css';
 const LibraryItem = ({ isPlaying, title }) => (
   <article className="library-item">
     <p className={`title ${isPlaying && 'title-red'}`}>{title}</p>
-    {isPlaying && (
+    {/* {isPlaying && (
       <div className="disc">
         <DiscIcon />
       </div>
-    )}
+    )} */}
   </article>
 );
 

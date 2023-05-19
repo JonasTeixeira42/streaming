@@ -6,11 +6,11 @@ const Tab = ({ id, isChecked, icon, children }) => (
       id={id}
       name="tabs"
       type="radio"
-      className="tab__radio"
+      className="radio"
       defaultChecked={isChecked}
     />
-    <label className="tab__label" htmlFor={id}>
-      <div className="tab__label__icon">{icon}</div>
+    <label className="tab-label" htmlFor={id}>
+      <div className="icon">{icon}</div>
       {children}
     </label>
   </div>

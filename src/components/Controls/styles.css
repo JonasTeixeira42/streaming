@@ -12,7 +12,7 @@
   justify-content: center;
 }
 
-.controls-action .icon {
+.controls-action > .icon {
   width: 20px;
   height: 20px;
 }
@@ -22,13 +22,11 @@
   height: 32px;
 }
 
-.controls-action .icon,
-.controls-action .play {
+.controls-action > .icon {
   cursor: pointer;
   transition: 0.2s color;
 }
 
-.controls-action .icon:hover,
-.controls-action .play:hover {
+.controls-action > .icon:hover {
   color: #b3b3b3;
 }

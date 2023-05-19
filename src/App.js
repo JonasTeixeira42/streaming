@@ -1,18 +1,21 @@
-import { Home } from './pages/Home';
+import { Player } from './components/Player';
+import { Sidebar } from './components/Sidebar';
+import { Profile } from './components/Profile';
+import { TopSongs } from './components/TopSongs';
+
+import './app.css';
 
 const App = () => (
-  <>
-    <Home />
-    {/* <div
-      style={{ height: "100px", width: "100px", backgroundColor: "#101010" }}
-    ></div>
-    <div
-      style={{ height: "100px", width: "100px", backgroundColor: "#171717" }}
-    ></div>
-    <div
-      style={{ height: "100px", width: "100px", backgroundColor: "#121212" }}
-    ></div> */}
-  </>
+  <main className="home">
+    <section className="content">
+      <Sidebar />
+      <Profile />
+      <TopSongs />
+    </section>
+    <section>
+      <Player />
+    </section>
+  </main>
 );
 
 export { App };
